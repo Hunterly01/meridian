@@ -6,9 +6,9 @@ Admin page access is gated by comparing the connected wallet with the vault's
 on-chain admin address, fetched with `fetchVaultAdmin()` in `AdminLogin.tsx`.
 This is a frontend visibility gate, not server-side authorization.
 
-| Variable               | Required | Default | Description                                                                                                                                                                                                                                                                                                                                                                  |
-| ---------------------- | -------- | ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `VITE_API_URL`         | No       | `""`    | Base URL of the API server. Empty means same origin. In local dev, Vite proxies `/api` to `localhost:3001` so this is not needed.                                                                                                                                                                                                                                            |
+| Variable       | Required | Default | Description                                                                                                                       |
+| -------------- | -------- | ------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| `VITE_API_URL` | No       | `""`    | Base URL of the API server. Empty means same origin. In local dev, Vite proxies `/api` to `localhost:3001` so this is not needed. |
 
 ## API: serverless (`api/v1/`) and Fastify (`apps/api-local`)
 
